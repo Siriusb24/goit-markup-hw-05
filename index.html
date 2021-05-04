@@ -77,7 +77,9 @@
                         Эффективные решения для вашего бизнеса
                     </h1>
                     <!--на макеті прописано як кнопка-->
-                    <button type="button" class="btn">Заказать услугу</button>
+                    <button type="button" class="btn" data-modal-open>
+                        Заказать услугу
+                    </button>
                 </div>
             </section>
             <!--короткий загальний опис-->
@@ -672,5 +674,13 @@
                 </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-exit" data-modal-close>
+                    X
+                </button>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
