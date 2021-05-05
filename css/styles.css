@@ -299,6 +299,9 @@ li {
 }
 
 .maket-thrumb .describe-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 370px;
     height: 70px;
@@ -310,8 +313,6 @@ li {
 
 .maket-thrumb .describe {
     margin: 0;
-    padding-top: 27px;
-    padding-bottom: 27px;
     color: var(--alt-color);
     font-weight: 700;
     font-size: 14px;
@@ -610,6 +611,9 @@ li {
 }
 
 .modal-exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 8px;
     right: 8px;
@@ -720,7 +724,8 @@ li {
     letter-spacing: 0.03em;
 }
 
-.card-overlay:hover .overlay {
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
     transform: translate(-50%, -50%) translateY(0);
 }
 
